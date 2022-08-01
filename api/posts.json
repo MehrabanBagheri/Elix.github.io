@@ -1,0 +1,38 @@
+[
+  {
+    "date": "23",
+    "month": "jul",
+    "image": "images/SLIDE1.png",
+    "title": "Photo",
+    "comments": " 3 ",
+    "description": "learn how to grow your website audience in hours. ",
+    "title2":  "read more"
+  },
+  {
+    "date": "16",
+    "month": "jul",
+    "image": "images/SLIDE2.png",
+    "title": "Design, Agency",
+    "comments": " 6 ",
+    "description": "endless possibility in building your own business.",
+    "title2":  "read more"
+  },
+  {
+    "date": "09",
+    "month": "jul",
+    "image": "images/SLIDE1.png",
+    "title": "Branding",
+    "comments": " 2 ",
+    "description": "learn how to grow your website audience in hours. ",
+    "title2":  "read more"
+  },
+  {
+    "date": "14",
+    "month": "jun",
+    "image": "images/SLIDE2.png",
+    "title": "Branding",
+    "comments": " 2 ",
+    "description": "endless possibility in building your own business.",
+    "title2":  "read more"
+  }
+]

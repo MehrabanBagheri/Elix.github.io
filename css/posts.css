@@ -1,0 +1,450 @@
+@media (min-width: 1200px){
+    div.posts{
+        position: relative;
+        top: 100px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    div.posts>h4{
+        color: #93939f;
+    }
+    div.posts>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    div#Posts{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 120px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    div#Posts>div.itemPosts{
+        width: 370px;
+        height: 450px;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>img{
+        width: 270px;
+        height: 240px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>h4{
+        text-align: left;
+        margin-left: 10%;
+        color: #787887;
+    }
+    div#Posts>div.itemPosts>h4>span{
+        color: #7dc22b ;
+    }
+    div#Posts>div.itemPosts>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#Posts>div.itemPosts>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    div#Posts>div.itemPosts>a:hover{
+        color: #7dc22b;
+    }
+    div#Posts>div.itemPosts>div{
+        width: 60px;
+        height: 60px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        padding-top: 10px;
+        top: 30px;
+        left: 80px;
+        position: relative;
+        transition: 300ms;
+    }
+    div#Posts>div.itemPosts>div>h1{
+        font-size:15px
+    }
+    div#Posts>div.itemPosts:hover>div{
+        background-color: #7dc22b;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    div.posts{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+    div.posts>h4{
+        color: #93939f;
+    }
+    div.posts>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    div#Posts{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 120px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    div#Posts>div.itemPosts{
+        width: 300px;
+        height: 380px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>img{
+        width: 270px;
+        height: 240px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>h4{
+        text-align: left;
+        margin-left: 10%;
+        color: #787887;
+    }
+    div#Posts>div.itemPosts>h4>span{
+        color: #7dc22b ;
+    }
+    div#Posts>div.itemPosts>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#Posts>div.itemPosts>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    div#Posts>div.itemPosts>a:hover{
+        color: #7dc22b;
+    }
+    div#Posts>div.itemPosts>div{
+        width: 60px;
+        height: 60px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        padding-top: 10px;
+        top: 30px;
+        left: 80px;
+        position: relative;
+        transition: 300ms;
+    }
+    div#Posts>div.itemPosts>div>h1{
+        font-size:15px
+    }
+    div#Posts>div.itemPosts:hover>div{
+        background-color: #7dc22b;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    div.posts{
+        position: relative;
+        top: 100px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    div.posts>h4{
+        color: #93939f;
+    }
+    div.posts>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    div#Posts{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 120px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    div#Posts>div.itemPosts{
+        width: 300px;
+        height: 380px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>img{
+        width: 270px;
+        height: 240px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>h4{
+        text-align: left;
+        margin-left: 10%;
+        color: #787887;
+    }
+    div#Posts>div.itemPosts>h4>span{
+        color: #7dc22b ;
+    }
+    div#Posts>div.itemPosts>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#Posts>div.itemPosts>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    div#Posts>div.itemPosts>a:hover{
+        color: #7dc22b;
+    }
+    div#Posts>div.itemPosts>div{
+        width: 60px;
+        height: 60px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        padding-top: 10px;
+        top: 30px;
+        left: 80px;
+        position: relative;
+        transition: 300ms;
+    }
+    div#Posts>div.itemPosts>div>h1{
+        font-size:15px
+    }
+    div#Posts>div.itemPosts:hover>div{
+        background-color: #7dc22b;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    div.posts{
+        position: relative;
+        top: 100px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    div.posts>h4{
+        color: #93939f;
+    }
+    div.posts>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    div#Posts{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 120px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    div#Posts>div.itemPosts{
+        width: 300px;
+        height: 380px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>img{
+        width: 270px;
+        height: 240px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>h4{
+        text-align: left;
+        margin-left: 10%;
+        color: #787887;
+    }
+    div#Posts>div.itemPosts>h4>span{
+        color: #7dc22b ;
+    }
+    div#Posts>div.itemPosts>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#Posts>div.itemPosts>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    div#Posts>div.itemPosts>a:hover{
+        color: #7dc22b;
+    }
+    div#Posts>div.itemPosts>div{
+        width: 60px;
+        height: 60px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        padding-top: 10px;
+        top: 30px;
+        left: 80px;
+        position: relative;
+        transition: 300ms;
+    }
+    div#Posts>div.itemPosts>div>h1{
+        font-size:15px
+    }
+    div#Posts>div.itemPosts:hover>div{
+        background-color: #7dc22b;
+    }
+}
+@media (max-width: 540px){
+    div.posts{
+        position: relative;
+        top: 100px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    div.posts>h4{
+        color: #93939f;
+    }
+    div.posts>h1{
+        font-size: 36px;
+        color: #26263e;
+    }
+    div#Posts{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 120px;
+        margin: 0 auto 100px;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    div#Posts>div.itemPosts{
+        width: 300px;
+        height: 380px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>img{
+        width: 270px;
+        height: 240px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    div#Posts>div.itemPosts>h4{
+        text-align: left;
+        margin-left: 10%;
+        color: #787887;
+    }
+    div#Posts>div.itemPosts>h4>span{
+        color: #7dc22b ;
+    }
+    div#Posts>div.itemPosts>h5{
+        font-size:20px;
+        margin-left:10%;
+        text-transform: capitalize;
+        color: #26263e;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 20px;
+    }
+    div#Posts>div.itemPosts>a{
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+        color: rgba(38, 38, 62, 0.9);
+        margin-top: 20px;
+        margin-left:10%;
+        transition: all 100ms linear;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    div#Posts>div.itemPosts>a:hover{
+        color: #7dc22b;
+    }
+    div#Posts>div.itemPosts>div{
+        width: 60px;
+        height: 60px;
+        background-color: #f5e9e9;
+        border-radius:50%;
+        text-align: center;
+        padding-top: 10px;
+        top: 30px;
+        left: 80px;
+        position: relative;
+        transition: 300ms;
+    }
+    div#Posts>div.itemPosts>div>h1{
+        font-size:15px
+    }
+    div#Posts>div.itemPosts:hover>div{
+        background-color: #7dc22b;
+    }
+}

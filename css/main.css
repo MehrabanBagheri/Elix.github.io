@@ -1,0 +1,117 @@
+/*HOME*/
+
+    /*menu*/
+    @import "menu.css";
+
+    /*slider*/
+    @import "slider.css";
+
+    /*learn*/
+    @import "learn.css";
+
+    /*future*/
+    @import "future.css";
+
+    /*work*/
+    @import "work.css";
+
+    /*facts*/
+    @import "facts.css";
+
+    /*posts*/
+    @import "posts.css";
+
+    /*testimonials*/
+    @import "testimonials.css";
+
+    /*FAQ*/
+    @import "FAQ.css";
+/*end HOME*/
+
+
+
+/*make contact*/
+@import "contact.css";
+
+/*make footer*/
+@import "footer.css";
+
+/*make form*/
+@import "form.css";
+
+/*make office*/
+@import "office.css";
+
+/*make blog*/
+@import "blog.css";
+
+/*make detail*/
+@import "detail.css";
+
+/*make tags*/
+@import "tags.css";
+
+/*make comments*/
+@import "comments.css";
+
+/*make about*/
+@import "about.css";
+
+/*make about2*/
+@import "about2.css";
+
+/*services*/
+@import "services.css";
+
+/*about me*/
+@import "about-me.css";
+
+/*pricing*/
+@import "pricing.css";
+
+/*portfolio single*/
+@import "single.css";
+
+/*portfolio grid*/
+@import "grid.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+    section.body {
+        height: 200px;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    overflow: hidden;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 99999999999999999999;
+}
+#value{
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #001a2e;
+}

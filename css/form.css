@@ -1,0 +1,407 @@
+@media (min-width: 1200px){
+    section.form{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        margin-top: 200px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    section.form>section:nth-of-type(1){
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.form>section:nth-of-type(1)>h3{
+        margin-left:10%;
+        font-size:15px;
+        color:#787887;
+    }
+    section.form>section:nth-of-type(1)>h1{
+        color: #26263e;
+        font-size:30px;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+    section.form>section:nth-of-type(1)>h4{
+        margin-top: 35px;
+        margin-left: 10%;
+        color: #787887;
+    }
+    section.form>section:nth-of-type(1)>i{
+        font-family:bold;
+        color: #7dc22b;
+        margin-top: 10px;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    section.form>section:nth-of-type(2){
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.form>section:nth-of-type(2)>form{
+        width:100%;
+    }
+    section.form>section:nth-of-type(2)>form>input[type="text"]{
+        width:70%;
+        height:60px;
+        font-size:15px;
+        border-radius: 5px;
+        border: transparent;
+        color: #787887;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-left: 15%;
+        margin-bottom: 15px;
+    }
+    section.form>section:nth-of-type(2)>form>textarea{
+        width: 70%;
+        height: 150px;
+        margin-left: 15%;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 5px;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #787887;
+        resize: none;
+        margin-bottom: 15px;
+        font-weight: lighter;
+    }
+    section.form>section:nth-of-type(2)>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius: 5px;
+        background-color: #7dc22b;
+        color: white;
+        margin-left: 15%;
+        cursor: pointer;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    section.form{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        top: -100px;
+    }
+    section.form>section:nth-of-type(1){
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.form>section:nth-of-type(1)>h3{
+        margin-left:10%;
+        font-size:15px;
+        color:#787887;
+    }
+    section.form>section:nth-of-type(1)>h1{
+        color: #26263e;
+        font-size:30px;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+    section.form>section:nth-of-type(1)>h4{
+        margin-top: 35px;
+        margin-left: 10%;
+        color: #787887;
+    }
+    section.form>section:nth-of-type(1)>i{
+        font-family:bold;
+        color: #7dc22b;
+        margin-top: 10px;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    section.form>section:nth-of-type(2){
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    section.form>section:nth-of-type(2)>form{
+        width:100%;
+    }
+    section.form>section:nth-of-type(2)>form>input[type="text"]{
+        width:70%;
+        height:60px;
+        font-size:15px;
+        border-radius: 5px;
+        border: transparent;
+        color: #787887;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-left: 15%;
+        margin-bottom: 15px;
+    }
+    section.form>section:nth-of-type(2)>form>textarea{
+        width: 70%;
+        height: 150px;
+        margin-left: 15%;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 5px;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #787887;
+        resize: none;
+        margin-bottom: 15px;
+        font-weight: lighter;
+    }
+    section.form>section:nth-of-type(2)>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius: 5px;
+        background-color: #7dc22b;
+        color: white;
+        margin-left: 15%;
+        cursor: pointer;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    section.form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    section.form>section:nth-of-type(1){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    section.form>section:nth-of-type(1)>h3{
+        font-size:15px;
+        color:#787887;
+    }
+    section.form>section:nth-of-type(1)>h1{
+        color: #26263e;
+        font-size:30px;
+        margin-top: 10px;
+    }
+    section.form>section:nth-of-type(1)>h4{
+        margin-top: 35px;
+        color: #787887;
+    }
+    section.form>section:nth-of-type(1)>i{
+        font-family:bold;
+        color: #7dc22b;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    section.form>section:nth-of-type(2){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    section.form>section:nth-of-type(2)>form{
+        width:100%;
+    }
+    section.form>section:nth-of-type(2)>form>input[type="text"]{
+        width:70%;
+        height:60px;
+        font-size:15px;
+        border-radius: 5px;
+        border: transparent;
+        color: #787887;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-bottom: 15px;
+    }
+    section.form>section:nth-of-type(2)>form>textarea{
+        width: 70%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 5px;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #787887;
+        resize: none;
+        margin-bottom: 15px;
+        font-weight: lighter;
+    }
+    section.form>section:nth-of-type(2)>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius: 5px;
+        background-color: #7dc22b;
+        display: block;
+        margin: 0 auto;
+        color: white;
+        cursor: pointer;
+    }
+}
+@media (min-width: 540px) and (max-width: 768px){
+    section.form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    section.form>section:nth-of-type(1){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    section.form>section:nth-of-type(1)>h3{
+        font-size:15px;
+        color:#787887;
+    }
+    section.form>section:nth-of-type(1)>h1{
+        color: #26263e;
+        font-size:30px;
+        margin-top: 10px;
+    }
+    section.form>section:nth-of-type(1)>h4{
+        margin-top: 35px;
+        color: #787887;
+    }
+    section.form>section:nth-of-type(1)>i{
+        font-family:bold;
+        color: #7dc22b;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    section.form>section:nth-of-type(2){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    section.form>section:nth-of-type(2)>form{
+        width:100%;
+    }
+    section.form>section:nth-of-type(2)>form>input[type="text"]{
+        width:70%;
+        height:60px;
+        font-size:15px;
+        border-radius: 5px;
+        border: transparent;
+        color: #787887;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-bottom: 15px;
+    }
+    section.form>section:nth-of-type(2)>form>textarea{
+        width: 70%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 5px;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #787887;
+        resize: none;
+        margin-bottom: 15px;
+        font-weight: lighter;
+    }
+    section.form>section:nth-of-type(2)>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius: 5px;
+        background-color: #7dc22b;
+        display: block;
+        margin: 0 auto;
+        color: white;
+        cursor: pointer;
+    }
+}
+@media (max-width: 540px){
+    section.form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    section.form>section:nth-of-type(1){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    section.form>section:nth-of-type(1)>h3{
+        font-size:15px;
+        color:#787887;
+    }
+    section.form>section:nth-of-type(1)>h1{
+        color: #26263e;
+        font-size:30px;
+        margin-top: 10px;
+    }
+    section.form>section:nth-of-type(1)>h4{
+        margin-top: 35px;
+        color: #787887;
+    }
+    section.form>section:nth-of-type(1)>i{
+        font-family:bold;
+        color: #7dc22b;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    section.form>section:nth-of-type(2){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    section.form>section:nth-of-type(2)>form{
+        width:100%;
+    }
+    section.form>section:nth-of-type(2)>form>input[type="text"]{
+        width:70%;
+        height:60px;
+        font-size:15px;
+        border-radius: 5px;
+        border: transparent;
+        color: #787887;
+        padding:12px 20px;
+        background-color: #f3f5fa;
+        margin-bottom: 15px;
+    }
+    section.form>section:nth-of-type(2)>form>textarea{
+        width: 70%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: transparent;
+        border-radius: 5px;
+        background-color:#f3f5fa;
+        font-size: 16px;
+        color: #787887;
+        resize: none;
+        margin-bottom: 15px;
+        font-weight: lighter;
+    }
+    section.form>section:nth-of-type(2)>form>input.submit{
+        width: 200px;
+        height:50px;
+        border: transparent;
+        border-radius: 5px;
+        background-color: #7dc22b;
+        color: white;
+        cursor: pointer;
+    }
+}
